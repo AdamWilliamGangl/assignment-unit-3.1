@@ -14,7 +14,6 @@ let food = ['pizza', 'brisket', 'burgers'];
 //      to the example above
 console.log('Favorite foods are:', food);
 
-
 // 2. Array.length - tells you how many items are in the array
 console.log('--- 2. Length of an array ---');
 
@@ -68,8 +67,8 @@ animalArray.unshift('walrus');
 console.log(`Added an animal to beginning: ${animalArray}`);
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
-let foodAddFirst = food.unshift('Cake');
-console.log('Added a new first food to the beginning:', foodAddFirst); //Question- is there a way to display the string that was added?
+food.unshift('Cake');
+console.log(`Added a new first food to the beginning: ${food}`); 
 console.log('My favorite foods are now', food);
 
 // Example: Remove the first animal using Array.shift
