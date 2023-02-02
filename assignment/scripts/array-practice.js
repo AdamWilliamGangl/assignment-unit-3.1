@@ -60,7 +60,7 @@ console.log('The animals are now', animalArray);
 // 4.b. TODO: Remove the food at the end of your array & 
 //      log both the food removed and the updated array
 let removedFood = food.pop();
-console.log('Removed the last food item', removedFood);
+console.log('Removed the last food item:', removedFood);
 console.log('My favorite foods are now', food);
 
 // Example: Add an animal to the beginning using Array.unshift
@@ -68,8 +68,8 @@ animalArray.unshift('walrus');
 console.log(`Added an animal to beginning: ${animalArray}`);
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
-food.unshift('cake');
-console.log(`Added a new first food to the beginning', ${food}`);
+let foodAddFirst= food.unshift('Cake');
+console.log('Added a new first food to the beginning:', foodAddFirst ); //Question- is there a way to display the string that was added?
 console.log('My favorite foods are now', food);
 
 // Example: Remove the first animal using Array.shift
@@ -79,6 +79,9 @@ console.log('The animals are now', animalArray);
 
 // 4.d TODO: Remove the food at the beginning of your array & 
 //     log both the food removed and the updated array
+let removedFirstFood= food.shift();
+console.log('Removed the first food:', removedFirstFood);
+console.log('My favorite foods are now', food);
 
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
