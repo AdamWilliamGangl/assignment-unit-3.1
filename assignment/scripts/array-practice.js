@@ -8,7 +8,7 @@ let animalArray = ['fish', 'cat', 'bird', 'dog'];
 console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
-let food = ['pizza', 'brisket', 'burgers'];
+let food = ['pizza', 'brisket', 'avocados', 'burgers'];
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
@@ -98,8 +98,8 @@ console.log('My food sorted in reverse alphabetical order is:', foodSortedRevers
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
-let foodString = food.join(' and ')
-console.log(foodString)
+let foodString = food.join(' and ');
+console.log(foodString);
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
